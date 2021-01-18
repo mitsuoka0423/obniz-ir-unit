@@ -1,0 +1,29 @@
+{
+  "name": "obniz-ir-unit",
+  "version": "1.0.0",
+  "description": "IR Unitのobniz用ライブラリ",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmitsuoka0423/obniz-ir-unit.git"
+  },
+  "keywords": [
+    "obniz",
+    "iot",
+    "IRUnit"
+  ],
+  "author": "Takahiro Mitsuoka <tmitsuoka0423@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmitsuoka0423/obniz-ir-unit/issues"
+  },
+  "homepage": "https://github.com/tmitsuoka0423/obniz-ir-unit#readme",
+  "dependencies": {
+    "obniz": "^3.12.0-beta.0",
+    "typescript": "^4.1.3"
+  }
+}
